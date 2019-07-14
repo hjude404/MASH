@@ -14,12 +14,11 @@ arr = ["mansion", "apartment", "shack", "house", "red stand-alone house", "grey 
 
 function getHome() { //This block generates random numbers from 0 to 7, never going to 7
     decimal = Math.random();
-    adNum = decimal * 7;
+    adNum = decimal * 8;
     raNum = Math.floor(adNum);
 
     arr = ["mansion", "apartment", "shack", "house", "red stand-alone house", "grey duplex", "black penthouse in Philly, PA", "a sealed concrete box with one air hole"];
     mansion = process.argv[2];
-
 
 
 
